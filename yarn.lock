@@ -5546,6 +5546,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+monaco-editor@^0.32.1:
+  version "0.32.1"
+  resolved "http://r.npm.sankuai.com/monaco-editor/download/monaco-editor-0.32.1.tgz#75a9bba379a923fd8e9ce99cddcab3a4e7657615"
+  integrity sha1-dam7o3mpI/2OnOmc3cqzpOdldhU=
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "http://r.npm.sankuai.com/move-concurrently/download/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -8210,6 +8215,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@3.0.7:
+  version "3.0.7"
+  resolved "http://r.npm.sankuai.com/vue-router/download/vue-router-3.0.7.tgz#b36ca107b4acb8ff5bc4ff824584059c23fcb87b"
+  integrity sha1-s2yhB7SsuP9bxP+CRYQFnCP8uHs=
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
