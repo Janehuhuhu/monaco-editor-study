@@ -2,4 +2,4 @@
 
 1. [monaco-editor 简介](./src/pages/01-home/tip.md)
 
-2. [快速上手](./src/pages/01-start/tip.md)
+2. [快速上手](./src/pages/02-start/tip.md)
