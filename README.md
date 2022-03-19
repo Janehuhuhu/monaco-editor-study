@@ -1,24 +1,5 @@
-# monaco-editor-study
+# monaco-editor 学习笔记
 
-## Project setup
-```
-yarn install
-```
+1. [monaco-editor 简介](./src/pages/01-home/tip.md)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. [快速上手](./src/pages/01-start/tip.md)

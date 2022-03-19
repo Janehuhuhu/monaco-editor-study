@@ -1,5 +1,5 @@
-import Home from '../pages/01-home.vue'
-import Start from '../pages/02-start.vue'
+import Home from '../pages/01-home/index'
+import Start from '../pages/02-start/index'
 const routes = [
   {
     path: '/',

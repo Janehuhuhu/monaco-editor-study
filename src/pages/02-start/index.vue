@@ -9,7 +9,7 @@ export default {
   name: 'start',
   mounted() {
     monaco.editor.create(document.getElementById("container"), {
-      value: "123"
+      value: "hello world",
     });
   }
 }
