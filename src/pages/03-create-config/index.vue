@@ -10,6 +10,15 @@ export default {
   mounted() {
     monaco.editor.create(document.getElementById("container"), {
       value: "hello world",
+      theme: "vs", // hc-black
+      language: 'javascript',
+      lineNumbers: 'relative',
+      readOnly: false,
+      // autoClosingBrackets: 'never',
+      // autoClosingOvertype: "always",
+      // autoClosingQuotes: 'always',
+      autoIndent: 'keep',
+      renderValidationDecorations: 'on',
     });
   }
 }
