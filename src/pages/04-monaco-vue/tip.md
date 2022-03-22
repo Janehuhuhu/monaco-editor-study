@@ -4,7 +4,7 @@
 yarn add monaco-editor-webpack-plugin -D
 ```
 ⚠️注意： 这里 `monaco-editor-webpack-plugin` 和 `monaco-editor` 版本需要对应，否则构建会报错，这里选择的版本分别为 *0.26.1* 和 *4.1.1*
-<div style="margin-top: 50px"><div>
+<div style="margin-top: 50px"></div>
 
 ### 2. 在 vue.config.js 文件下配置
 ```js
@@ -17,7 +17,7 @@ configureWebpack: {
 	]
 }
 ```
-<div style="margin-top: 50px"><div>
+<div style="margin-top: 50px"></div>
 
 ### 3. 定义 monaco 组件
 ```js
@@ -70,7 +70,7 @@ export default {
 </script>
 ```
 
-<div style="margin-top: 50px"><div>
+<div style="margin-top: 50px"></div>
 
 ### 4. 使用组件
 ```js
