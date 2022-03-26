@@ -7,3 +7,5 @@
 3. [常用配置](./src/pages/03-create-config/tip.md)
 
 4. [monaco-editor 在 vue-cli3 使用](./src/pages/04-monaco-vue/tip.md)
+
+5. [monaco-editor 使用坑点](./src/pages/05-monaco-vue-error/tip.md)
