@@ -1,7 +1,7 @@
 ## monaco-editor 坑点
 ### 1. 发布环境报错“Error: Unexpected usage”
 1）问题描述<br>
-本地环境调试没有问题，但发布至发布环境会报错 *Error: Unexpected usage*
+本地环境调试没有问题，但发布至发布环境会报错 *Error: Unexpected usage* 和 *Refused to create a worker from xxx, because it violates the following Content Security Policy directive "worker-src blob"*
 
 <img src="./unexpect-usage.png">
 <img src="./error.png">
