@@ -10,8 +10,8 @@ module.exports = {
     },
     plugins: [
       new MonacoWebpackPlugin({
-        languages: ["json"],// 配置需要的languages，减少打包后的体积
-        // features: ['coreCommands', 'find', 'format'],
+        languages: ["json", "javascript"],// 配置需要的languages，减少打包后的体积
+        // features: ['coreCommands', 'find', 'format'], // 选择编辑器功能
       })
     ]
   }

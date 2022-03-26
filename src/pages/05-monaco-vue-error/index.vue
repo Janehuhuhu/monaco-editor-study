@@ -9,13 +9,13 @@
   </div>
 </template>
 <script>
-import Monaco from "@/components/monaco.vue";
+import Monaco from "@/components/monaco-env.vue";
 export default {
   name: "demo",
   data() {
     return {
       monacoOptions: {
-        value: "hello",
+        value: `{"a": 10}`,
         readOnly: false, // 是否只读
         language: "json", // 语言类型
         theme: "vs-dark", // 编辑器主题

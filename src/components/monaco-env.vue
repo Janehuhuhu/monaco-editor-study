@@ -35,6 +35,11 @@ export default {
   },
   methods: {
     init() {
+      window.MonacoEnvironment = {
+        getWorkerUrl: (moduleId, label) => {
+          return label === 'json' ? this.setWorkerUrl('json') : this.setWorkerUrl('editor') // label 可以为 javascript、css、html等，这里仅举例
+        },
+      }
       // 初始化container的内容，销毁之前生成的编辑器
       this.$refs.container.innerHTML = ""
       this.monacoEditor = monaco.editor.create(this.$refs.container, this.monacoOptions)
@@ -45,6 +50,13 @@ export default {
     },
     format() {
       this.monacoEditor.getAction('editor.action.formatDocument').run()
+    },
+    setWorkerUrl(key) {
+      const { NODE_ENV, BASE_URL } = process.env
+      return NODE_ENV === 'development'
+        ? `./${key}.worker.js` // 本地环境读取本地服务 worker 文件
+        : `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+          importScripts('https:${BASE_URL}${key}.worker.js');`)}` // 发布环境通过 importScripts() 函数将外部脚本文件或库加载到 Worker 中
     },
   }
 }
